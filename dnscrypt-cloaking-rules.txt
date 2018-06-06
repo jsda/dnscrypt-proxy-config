@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-05-13
+# Last updated: 2018-06-05
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -39,11 +39,7 @@ tgsocks5-9.googlehosts.org	185.116.237.11
 a248.e.akamai.net	23.32.241.9
 static.ak.instagram.com	23.32.241.16
 images.ak.instagram.com	184.51.15.69
-blogthumb.pstatic.net	23.51.209.100
 s.pinimg.com	2.17.28.19
-v.pinimg.com	2.17.28.19
-i.pinimg.com	104.118.71.71
-s-media-cache-ak0.pinimg.com	104.118.71.71
 passets-cdn.pinterest.com	104.118.71.71
 # Akamai End
 
@@ -67,18 +63,9 @@ source.android.com	172.217.17.22
 developer.android.com	172.217.16.246
 # Android End
 
-# Androidfilehost Start
-androidfilehost.com	151.139.240.14
-# Androidfilehost End
-
 # Apkpure Start
 apkpure.com	104.20.82.194
-a.apkpure.com	104.20.82.194
-download.apkpure.com	104.20.82.194
 m.apkpure.com	104.20.82.194
-i.apkpure.com	104.20.82.194
-static.apkpure.com	104.20.82.194
-translate.apkpure.com	104.20.82.194
 # Apkpure End
 
 # Apkmirror Start
@@ -2669,7 +2656,6 @@ id.heroku.com	52.1.240.62
 # HumbleBundle Start
 humble.pubnub.com	54.250.252.63
 humblebundle.com	104.20.34.236
-humblebundle-a.akamaihd.net	203.69.81.33
 pubnub.com	52.36.140.12
 www.humblebundle.com	216.58.200.243
 # HumbleBundle End
@@ -3028,6 +3014,10 @@ skyweb.skyprod.akadns.net	134.170.104.157
 # Pcloud Start
 my.pcloud.com	74.120.8.13
 # Pcloud End
+
+# Pepitastore Start
+ips.pepitastore.com	68.232.44.109
+# Pepitastore End
 
 # Pinterest Start
 pinterest.com	151.101.128.84
