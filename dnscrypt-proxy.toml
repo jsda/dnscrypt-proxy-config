@@ -11,6 +11,7 @@ require_dnssec = false
 require_nolog = true
 require_nofilter = true
 force_tcp = true
+# proxy = "socks5://127.0.0.1:9050"
 timeout = 2500
 keepalive = 30
 lb_strategy = 'p2'
