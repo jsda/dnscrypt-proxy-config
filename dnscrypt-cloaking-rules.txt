@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-09-19
+# Last updated: 2018-09-20
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -3335,13 +3335,7 @@ support.ixquick.com	64.71.134.121
 # Startpage & Ixquick End
 
 # Steam Start
-steamcommunity.com	223.119.217.234
-help.steampowered.com	173.223.87.13
-store.steampowered.com	23.37.147.226
-steamcommunity-a.akamaihd.net	23.4.240.26
-steamuserimages-a.akamaihd.net	184.28.218.74
-steamcdn-a.akamaihd.net	184.25.205.16
-cdn.akamai.steamstatic.com	184.25.205.19
+steamcommunity.com	104.71.136.93
 # Steam End
 
 # Theinitium Start
@@ -3455,6 +3449,32 @@ storm.torproject.org	78.47.38.231
 svn.torproject.org	138.201.14.206
 trac.torproject.org	138.201.212.227
 # Tor End
+
+# Twitch Start
+twitch.tv	151.101.66.167
+app.twitch.tv	54.254.167.84
+api.twitch.tv	23.12.207.125
+blog.twitch.tv	52.4.145.119
+cvp.twitch.tv	23.12.207.125
+countess.twitch.tv	54.187.84.86
+dev.twitch.tv	52.84.222.121
+gql.twitch.tv	151.101.110.167
+help.twitch.tv	184.169.156.224
+player.twitch.tv	23.12.207.125
+passport.twitch.tv	52.89.26.201
+spade.twitch.tv	35.161.182.231
+trowel.twitch.tv	34.212.220.91
+music.twitch.tv	35.185.17.162
+clips-media-assets2.twitch.tv	54.230.159.250
+vod-storyboards.twitch.tv	54.230.159.146
+client-event-reporter.twitch.tv	34.214.98.191
+pubsub-edge.twitch.tv	54.68.186.105
+irc-ws.chat.twitch.tv	50.112.132.198
+video-edge-aed56b.sjc02.hls.ttvnw.net	52.89.48.200
+video-edge-db8460.sjc02.hls.ttvnw.net	35.163.203.219
+video-edge-5fbf1c.sjc02.hls.ttvnw.net	54.149.124.198
+video-edge-87714e.sjc02.hls.ttvnw.net	52.88.54.25
+# Twitch End
 
 # Vimeo Start
 vimeo.com	151.101.0.217
