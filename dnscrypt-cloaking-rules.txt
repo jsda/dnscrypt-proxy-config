@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-10-09
+# Last updated: 2018-10-11
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -103,7 +103,7 @@ dev.android.com	216.58.215.54
 market.android.com	216.58.215.54
 r.android.com	216.58.215.54
 android.com	216.58.223.214
-www.android.com	216.58.215.118
+www.android.com	216.58.204.221
 source.android.com	172.217.17.22
 developer.android.com	172.217.16.246
 # Android End
@@ -194,7 +194,7 @@ app.arukas.io	27.133.136.8
 # Arukas End
 
 # Bandwagonhost Start
-bandwagonhost.com	104.20.6.63
+bandwagonhost.com	104.20.7.63
 # Bandwagonhost End
 
 # Bbc Start
@@ -258,61 +258,60 @@ embed.culturalspot.org	172.217.31.96
 
 # Conoha Start
 cp.conoha.jp	157.7.225.122
-www.conoha.jp	103.3.190.48
-app.conoha.jp	157.7.225.117
-manage.conoha.jp	157.7.225.120
+www.conoha.jp	150.95.236.28
+app.conoha.jp	150.95.236.52
+manage.conoha.jp	150.95.236.31
 # Conoha End
 
 # Dropbox Start
 db.tt	162.125.248.2
 www.dropbox.com	162.125.248.1
 www.dualstack.dropbox-dns.com	162.125.248.1
-api.dropbox.com	162.125.248.1
-api.dualstack.dropbox-dns.com	162.125.248.1
-api.dropboxapi.com	162.125.248.1
-api-d.dropbox.com	162.125.32.135
-api.v.dropbox.com	162.125.32.13
-api-notify.dropbox.com	162.125.32.13
-aem.dropbox.com	54.230.86.72
+api.dropbox.com	162.125.5.7
+api.dualstack.dropbox-dns.com	162.125.5.7
+api.dropboxapi.com	162.125.5.7
+api-d.dropbox.com	162.125.33.7
+api.v.dropbox.com	162.125.34.7
+api-notify.dropbox.com	162.125.34.7
+aem.dropbox.com	54.192.145.52
 api-content.dropbox.com	162.125.82.8
 api-content-photos.dropbox.com	162.125.82.5
 blogs.dropbox.com	52.222.238.253
-block.dropbox.com	162.125.32.2
+block.dropbox.com	162.125.17.132
 block.v.dropbox.com	162.125.17.5
 bolt.dropbox.com	162.125.18.133
-client.dropbox.com	162.125.2.3
-client-cf.dropbox.com	162.125.2.3
-client.v.dropbox.com	162.125.32.12
+client.dropbox.com	162.125.65.3
+client-cf.dropbox.com	162.125.65.3
+client.v.dropbox.com	162.125.32.137
 client-lb.dropbox.com	162.125.80.3
 client-web.dropbox.com	162.125.80.3
-d.dropbox.com	162.125.32.5
-d.v.dropbox.com	162.125.32.5
-dl.dropbox.com	162.125.2.6
-dl-web.dropbox.com	162.125.2.6
-dl-doc.dropbox.com	162.125.80.6
-dl-debug.dropbox.com	34.197.94.108
-forums.dropbox.com	52.85.12.7
-linux.dropbox.com	54.192.136.115
-m.dropbox.com	162.125.32.9
-marketing.dropbox.com	52.85.12.227
-notify.dropbox.com	162.125.17.131
-photos.dropbox.com	162.125.32.15
-photos-1.dropbox.com	162.125.80.5
-photos-2.dropbox.com	162.125.80.5
-photos-3.dropbox.com	162.125.80.5
-photos-4.dropbox.com	162.125.80.5
-photos-5.dropbox.com	162.125.80.5
-photos-6.dropbox.com	162.125.80.5
-photos-thumb.dropbox.com	162.125.80.5
+d.dropbox.com	162.125.32.135
+d.v.dropbox.com	162.125.32.135
+dl.dropbox.com	162.125.83.6
+dl-web.dropbox.com	162.125.83.6
+dl-doc.dropbox.com	162.125.83.6
+dl-debug.dropbox.com	54.236.121.227
+forums.dropbox.com	13.35.8.71
+linux.dropbox.com	13.35.99.72
+m.dropbox.com	162.125.80.2
+marketing.dropbox.com	54.230.173.117
+photos.dropbox.com	162.125.66.5
+photos-1.dropbox.com	162.125.83.5
+photos-2.dropbox.com	162.125.83.5
+photos-3.dropbox.com	162.125.83.5
+photos-4.dropbox.com	162.125.83.5
+photos-5.dropbox.com	162.125.83.5
+photos-6.dropbox.com	162.125.83.5
+photos-thumb.dropbox.com	162.125.83.5
 photos-thumb.x.dropbox.com	162.125.18.129
-paper.dropbox.com	162.125.2.3
-status.dropbox.com	52.222.238.128
-snapengage.dropbox.com	52.85.12.72
-dl.dropboxusercontent.com	162.125.2.6
-www.dropboxstatic.com	162.125.32.10
+paper.dropbox.com	18.208.123.8
+status.dropbox.com	54.230.173.90
+snapengage.dropbox.com	54.230.173.29
+dl.dropboxusercontent.com	162.125.7.6
+www.dropboxstatic.com	162.125.33.9
 cfl.dropboxstatic.com	104.16.100.29
-cf.dropboxstatic.com	54.230.125.126
-dbxlocal.dropboxstatic.com	162.125.32.10
+cf.dropboxstatic.com	54.230.175.68
+dbxlocal.dropboxstatic.com	162.125.33.9
 log.getdropbox.com	162.125.82.2
 # Dropbox End
 
@@ -923,6 +922,7 @@ blog.google	216.239.34.21
 environment.google	216.239.38.21
 domains.google	172.217.161.182
 domains.google.com	64.15.126.100
+dns.google.com	216.58.204.175
 aboutme.google.com	74.125.206.210
 ads.google.com	74.125.206.210
 abc.xyz	74.125.206.210
@@ -965,7 +965,6 @@ desktop2.google.com	74.125.206.210
 desktop3.google.com	74.125.206.210
 desktop5.google.com	74.125.206.210
 desktop6.google.com	74.125.206.210
-dns.google.com	74.125.206.210
 docs0.google.com	74.125.206.210
 docs1.google.com	74.125.206.210
 docs2.google.com	74.125.206.210
@@ -1018,7 +1017,6 @@ landing.google.com	74.125.206.210
 maven.google.com	74.125.206.210
 material.google.com	74.125.206.210
 mapsengine.google.com	74.125.206.210
-myaccount.google.com	74.125.206.210
 myactivity.google.com	74.125.206.210
 notifications.google.com	74.125.206.210
 opensource.google.com	74.125.206.210
@@ -1225,7 +1223,8 @@ uploadsj.clients.google.com	172.217.162.15
 # Google Service End
 
 # Google Service:Ncr Start
-accounts.google.com	74.125.206.210
+accounts.google.com	216.58.204.169
+myaccount.google.com	216.58.204.171
 assistant.google.com	108.177.103.163
 books.google.com	108.177.103.163
 blogsearch.google.com	108.177.103.163
@@ -1246,7 +1245,7 @@ places.google.com	108.177.103.163
 privacy.google.com	108.177.103.163
 translate.google.com	108.177.103.163
 toolbarqueries.google.com	108.177.103.163
-scholar.google.com	172.217.25.4
+scholar.google.com	216.58.194.223
 # Google Service:Ncr End
 
 # Google Service:China Hongkong Start
