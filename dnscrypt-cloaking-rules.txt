@@ -368,6 +368,10 @@ m.discuss.com.hk	104.20.171.49
 tr.discuss.com.hk	104.20.170.49
 # Discuss.com.hk End
 
+# Dynu Start
+www.dynu.com	207.38.70.29
+# Dynu End
+
 # Facebook Start
 www.facebook.com	157.240.7.35
 fb.me	157.240.7.35
@@ -1135,11 +1139,11 @@ safebrowsing.clients.google.com	74.125.206.210
 safebrowsing-cache.google.com	74.125.206.210
 sandbox.google.com	74.125.206.210
 googleapis.sandbox.google.com	74.125.206.210
-sites.google.com	74.125.206.210
 surveys.google.com	74.125.206.210
 sketchup.google.com	74.125.206.210
 tagmanager.google.com	74.125.206.210
 talkgadget.google.com	74.125.206.210
+sites.google.com	172.217.27.206
 m.google.com	172.217.166.75
 mobile.l.google.com	172.217.166.75
 hangouts.google.com	173.194.70.125
@@ -3071,6 +3075,11 @@ obs.line-scdn.net	23.211.98.191
 profile.line-scdn.net	2.17.56.25
 # Line End
 
+# Lihkg Start
+lihkg.com	104.24.15.103
+x.lihkg.com	104.24.16.103
+# Lihkg End
+
 # MEGA Start
 mega.nz	31.216.148.12
 # MEGA End
@@ -3458,33 +3467,43 @@ trac.torproject.org	138.201.212.227
 
 # Twitch Start
 twitch.tv	151.101.66.167
-app.twitch.tv	54.254.167.84
+app.twitch.tv	54.254.165.93
 api.twitch.tv	23.12.207.125
 badges.twitch.tv	54.200.101.68
 blog.twitch.tv	52.4.145.119
 cvp.twitch.tv	23.12.207.125
-countess.twitch.tv	54.187.84.86
+countess.twitch.tv	54.69.121.1
 dev.twitch.tv	52.84.222.121
 discuss.dev.twitch.tv	52.39.89.40
 gql.twitch.tv	151.101.110.167
-help.twitch.tv	184.169.156.224
+help.twitch.tv	50.18.57.118
 player.twitch.tv	23.12.207.125
-passport.twitch.tv	52.89.26.201
+passport.twitch.tv	35.160.111.213
 spade.twitch.tv	35.161.182.231
 trowel.twitch.tv	34.212.220.91
 music.twitch.tv	35.185.17.162
 spade.sci.twitch.tv	54.69.142.1
 clips-media-assets2.twitch.tv	54.230.159.250
 vod-storyboards.twitch.tv	54.230.159.146
-client-event-reporter.twitch.tv	34.214.98.191
+client-event-reporter.twitch.tv	52.27.93.163
 pubsub-edge.twitch.tv	54.68.186.105
 irc-ws.chat.twitch.tv	50.112.132.198
+video-edge-3d9f56.sjc02.hls.ttvnw.net	52.42.180.194
+video-edge-5fbf1c.sjc02.hls.ttvnw.net	54.149.124.198
+video-edge-5835af.sjc02.hls.ttvnw.net	52.43.201.49
+video-edge-6c67c0.sjc02.hls.ttvnw.net	54.187.252.230
+video-edge-75ad0a.sjc02.hls.ttvnw.net	52.40.222.98
+video-edge-8e57c7.sjc02.hls.ttvnw.net	52.43.168.169
+video-edge-87714e.sjc02.hls.ttvnw.net	52.88.54.25
 video-edge-aed56b.sjc02.hls.ttvnw.net	52.89.48.200
 video-edge-db8460.sjc02.hls.ttvnw.net	35.163.203.219
-video-edge-5fbf1c.sjc02.hls.ttvnw.net	54.149.124.198
-video-edge-87714e.sjc02.hls.ttvnw.net	52.88.54.25
+video-edge-e0871b.sjc02.hls.ttvnw.net	54.148.18.99
 video-edge-f9215f.sjc02.hls.ttvnw.net	54.187.95.61
 # Twitch End
+
+# Twitter Start
+pbs.twimg.com	117.18.237.70
+# Twitter End
 
 # Vimeo Start
 vimeo.com	151.101.0.217
@@ -3600,6 +3619,7 @@ tw.mall.yahoo.com	119.160.242.137
 hk.search.yahoo.com	208.71.45.11
 tw.search.yahoo.com	27.123.200.67
 search.yahoo.com	106.10.218.137
+search.yahoo.co.jp	182.22.25.124
 # Yahoo End
 
 # Youtube Start
