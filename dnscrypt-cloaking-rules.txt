@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2018-11-06
+# Last updated: 2018-11-07
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -933,6 +933,7 @@ domains.google	172.217.161.182
 domains.google.com	64.15.126.100
 dns.google.com	216.58.204.175
 developers.google.com	172.217.20.110
+g.co	172.217.27.219
 aboutme.google.com	74.125.206.210
 ads.google.com	74.125.206.210
 abc.xyz	74.125.206.210
@@ -2597,9 +2598,9 @@ lh0.googleusercontent.com	172.217.168.193
 lh1.googleusercontent.com	172.217.168.193
 lh2.googleusercontent.com	172.217.168.193
 lh3.googleusercontent.com	108.177.127.133
-lh4.googleusercontent.com	172.217.168.193
-lh5.googleusercontent.com	172.217.168.193
-lh6.googleusercontent.com	172.217.168.193
+lh4.googleusercontent.com	108.177.127.133
+lh5.googleusercontent.com	108.177.127.133
+lh6.googleusercontent.com	108.177.127.133
 mail-attachment.googleusercontent.com	172.217.168.193
 music-onebox.googleusercontent.com	172.217.168.193
 music.googleusercontent.com	172.217.168.193
@@ -2721,10 +2722,10 @@ gm1.ggpht.com	108.177.119.132
 gm2.ggpht.com	108.177.119.132
 gm3.ggpht.com	108.177.119.132
 gm4.ggpht.com	108.177.119.132
-lh3.ggpht.com	108.177.119.132
-lh4.ggpht.com	108.177.119.132
-lh5.ggpht.com	108.177.119.132
-lh6.ggpht.com	108.177.119.132
+lh3.ggpht.com	108.177.127.132
+lh4.ggpht.com	108.177.127.132
+lh5.ggpht.com	108.177.127.132
+lh6.ggpht.com	108.177.127.132
 nt0.ggpht.com	108.177.119.132
 nt1.ggpht.com	108.177.119.132
 nt2.ggpht.com	108.177.119.132
