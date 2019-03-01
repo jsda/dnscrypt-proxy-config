@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2018, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-02-10
+# Last updated: 2019-02-28
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -17,8 +17,8 @@ localhost	127.0.0.1
 
 # GoogleHosts Start
 23-95-9-4.googlehosts.org	23.95.9.4
+tg-1.googlehosts.org	23.95.9.4
 204-44-101-36.googlehosts.org	204.44.101.36
-tg-1.googlehosts.org	204.44.101.36
 185-200-34-198.googlehosts.org	185.200.34.198
 tg-2.googlehosts.org	185.200.34.198
 107-174-205-58.googlehosts.org	107.174.205.58
@@ -42,8 +42,6 @@ ss-1.googlehosts.org	23.226.136.24
 ss-1.googlehosts.org	66.154.104.124
 104-129-16-244.googlehosts.org	104.129.16.244
 23-226-136-132.googlehosts.org	23.226.136.132
-104-223-60-17.googlehosts.org	104.223.60.17
-ss-2.googlehosts.org	104.223.60.17
 66-154-108-62.googlehosts.org	66.154.108.62
 ss-2.googlehosts.org	66.154.108.62
 23-226-136-216.googlehosts.org	23.226.136.216
@@ -54,6 +52,7 @@ ss-3.googlehosts.org	185.22.152.42
 167-88-168-251.googlehosts.org	167.88.168.251
 167-88-163-163.googlehosts.org	167.88.163.163
 ss-4.googlehosts.org	167.88.163.163
+23-95-54-162.googlehosts.org	23.95.54.162
 103-124-106-174.googlehosts.org	103.124.106.174
 proxy.googlehosts.org	103.124.106.174
 45-59-113-169.googlehosts.org	45.59.113.169
@@ -176,6 +175,7 @@ betaspike.appspot.com	172.217.161.180
 hstspreload.appspot.com	172.217.161.180
 lfe-alpo-gm.appspot.com	172.217.161.180
 netlog-viewer.appspot.com	172.217.8.244
+go-tour-zh.appspot.com	172.217.14.116
 # Appspotpreview End
 
 # Archive Start
@@ -2375,6 +2375,7 @@ browserchannel-docs.l.google.com	172.217.31.103
 # Google GoLang Start
 golang.org	172.217.14.127
 golang-consa.l.google.com	172.217.14.127
+tour.golang.org	172.217.14.128
 # Google GoLang End
 
 # Google Service:Google Play Start
@@ -2771,6 +2772,11 @@ hichannel.hinet.net	211.20.148.228
 id.heroku.com	34.200.95.135
 # Heroku End
 
+# HKGalden Start
+hkgalden.com	104.25.120.37
+www.hkgalden.com	104.25.120.37
+# HKGalden End
+
 # HKGolden Start
 www.hkgolden.com	104.22.12.39
 forum.hkgolden.com	104.22.12.39
@@ -3101,8 +3107,10 @@ profile.line-scdn.net	2.17.56.25
 # Line End
 
 # Lihkg Start
-lihkg.com	104.24.15.103
-x.lihkg.com	104.24.16.103
+x.lihkg.com	104.19.139.58
+lihkg.com	104.19.140.58
+graph.lihkg.com	104.19.140.58
+i.lihkg.com	104.19.140.58
 # Lihkg End
 
 # MEGA Start
@@ -3213,49 +3221,49 @@ s-media-cache-ak0.pinimg.com	23.217.143.151
 # Pinterest End
 
 # Pixiv Start
-www.pixiv.net	210.129.120.55
-touch.pixiv.net	210.129.120.43
-source.pixiv.net	210.140.131.146
-accounts.pixiv.net	210.129.120.41
-imgaz.pixiv.net	210.140.131.147
-app-api.pixiv.net	210.129.120.44
-oauth.secure.pixiv.net	210.129.120.48
-dic.pixiv.net	210.129.120.54
-comic.pixiv.net	210.140.131.145
-factory.pixiv.net	210.129.120.53
-g-client-proxy.pixiv.net	74.120.148.205
-sketch.pixiv.net	210.140.170.179
-payment.pixiv.net	210.129.120.52
-sensei.pixiv.net	210.129.120.51
-novel.pixiv.net	210.140.131.144
-ssl.pixiv.net	210.129.120.49
+www.pixiv.net	210.140.131.203
+touch.pixiv.net	210.140.131.204
+source.pixiv.net	210.140.131.205
+accounts.pixiv.net	210.140.131.206
+imgaz.pixiv.net	210.140.131.207
+app-api.pixiv.net	210.140.131.208
+oauth.secure.pixiv.net	210.140.131.209
+dic.pixiv.net	210.140.131.210
+comic.pixiv.net	210.140.131.211
+factory.pixiv.net	210.140.131.212
+g-client-proxy.pixiv.net	18.211.61.121
+sketch.pixiv.net	210.140.131.213
+payment.pixiv.net	210.140.131.214
+sensei.pixiv.net	210.140.131.215
+novel.pixiv.net	210.140.131.216
+ssl.pixiv.net	210.140.131.217
 times.pixiv.net	66.6.32.22
-recruit.pixiv.net	210.129.120.50
-pixiv.net	210.129.120.49
+recruit.pixiv.net	210.140.131.218
+pixiv.net	210.140.131.219
 p2.pixiv.net	122.208.114.218
-matsuri.pixiv.net	52.84.203.238
-m.pixiv.net	210.129.120.46
-iracon.pixiv.net	52.84.203.163
-inside.pixiv.net	52.69.82.228
-i1.pixiv.net	210.140.131.147
-help.pixiv.net	153.120.23.207
-goods.pixiv.net	210.129.120.43
-genepixiv.pr.pixiv.net	210.129.120.40
-festa.pixiv.net	52.84.203.136
-en.dic.pixiv.net	210.129.120.45
+matsuri.pixiv.net	13.35.19.186
+m.pixiv.net	210.140.131.220
+iracon.pixiv.net	13.35.19.88
+inside.pixiv.net	210.140.131.222
+i1.pixiv.net	210.140.131.223
+help.pixiv.net	210.140.131.224
+goods.pixiv.net	210.140.131.225
+genepixiv.pr.pixiv.net	210.140.131.226
+festa.pixiv.net	13.35.19.46
+en.dic.pixiv.net	210.140.131.180
 dev.pixiv.net	52.219.68.134
-chat.pixiv.net	210.129.120.42
+chat.pixiv.net	210.140.131.181
 blog.pixiv.net	122.208.114.218
-embed.pixiv.net	210.129.120.43
-comic-api.pixiv.net	210.129.120.44
-pay.pixiv.net	210.129.120.56
+embed.pixiv.net	210.140.131.182
+comic-api.pixiv.net	210.140.131.183
+pay.pixiv.net	210.140.131.184
 # Pixiv End
 
 # Periscope Start
-pscp.tv	52.76.20.17
-www.pscp.tv	52.220.143.156
-channels.pscp.tv	35.160.65.192
-proxsee.pscp.tv	35.164.70.108
+pscp.tv	13.124.246.138
+www.pscp.tv	13.124.203.13
+channels.pscp.tv	52.39.74.21
+proxsee.pscp.tv	54.200.114.148
 assets.pscp.tv	54.192.73.58
 prod-profile.pscp.tv	54.192.73.58
 prod-thumbnail.pscp.tv	54.192.73.58
@@ -3396,6 +3404,9 @@ api.theinitium.com	52.221.46.214
 
 # TopickHK Start
 topick.hket.com	118.143.30.216
+inlog01.hket.com	118.143.30.165
+static01.hket.com	118.143.30.220
+plus.hket.com	118.143.30.175
 # TopickHK End
 
 # Tumblr Start
@@ -3620,6 +3631,10 @@ suche.web.de	82.165.229.94
 lokale.suche.web.de	54.93.172.67
 # Web.de End
 
+# Webtype Start
+cloud.webtype.com	72.21.91.41
+# Webtype End
+
 # WikiLeaks Start
 wikileaks.org	95.211.113.131
 www.wikileaks.org	95.211.113.131
@@ -3703,6 +3718,10 @@ s.ytimg.com	216.58.217.174
 www.youtube.com	64.15.118.42
 m.youtube.com	216.58.194.46
 # Youtube End
+
+# You-get Start
+you-get.org	104.31.79.57
+# You-get End
 
 # Google 1e100 Start
 ams15s21-in-f1.1e100.net	74.125.67.1
