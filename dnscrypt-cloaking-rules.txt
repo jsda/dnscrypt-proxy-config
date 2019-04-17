@@ -2,9 +2,9 @@
 # https://github.com/googlehosts/hosts
 # Thanks to all contributors.
 
-# Copyright (c) 2017-2018, googlehosts members.
+# Copyright (c) 2017-2019, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-04-15
+# Last updated: 2019-04-16
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -196,7 +196,7 @@ app.arukas.io	27.133.136.8
 # Arukas End
 
 # Avira Start
-search.avira.com	52.58.235.13
+search.avira.com	52.59.33.68
 # Avira End
 
 # Bandwagonhost Start
@@ -212,7 +212,7 @@ static.bbc.co.uk	23.199.11.116
 nav.files.bbci.co.uk	104.76.83.32
 ichef.bbci.co.uk	23.42.122.193
 m.files.bbci.co.uk	23.73.186.251
-feeds.bbci.co.uk	104.124.234.244
+feeds.bbci.co.uk	125.56.212.236
 mybbc.files.bbci.co.uk	23.13.157.61
 polling.bbc.co.uk	23.66.206.133
 search.files.bbci.co.uk	104.72.213.225
@@ -223,8 +223,8 @@ news.bbcimg.co.uk	23.53.213.148
 mybbc-analytics.files.bbci.co.uk	23.201.173.230
 ssl.bbc.co.uk	212.58.244.114
 push.api.bbci.co.uk	13.33.213.226
-search-suggest.api.bbci.co.uk	52.50.202.133
-ess.api.bbci.co.uk	34.240.0.40
+search-suggest.api.bbci.co.uk	52.31.189.25
+ess.api.bbci.co.uk	34.245.252.9
 session.bbc.com	212.58.249.134
 account.bbc.com	212.58.244.92
 open.live.bbc.co.uk	212.58.244.78
@@ -236,12 +236,8 @@ m.box.com	107.152.24.197
 # Box End
 
 # Buzzfeed Start
-img.buzzfeed.com	151.101.129.181
+img.buzzfeed.com	151.101.2.114
 # Buzzfeed End
-
-# cd4o Start
-www.cd4o.com	68.232.45.253
-# cd4o End
 
 # Change.org Start
 www.change.org	104.16.5.13
@@ -3643,6 +3639,7 @@ cloud.webtype.com	72.21.91.41
 # WikiLeaks Start
 wikileaks.org	95.211.113.131
 www.wikileaks.org	95.211.113.131
+file.wikileaks.org	141.105.65.113
 # WikiLeaks End
 
 # Wikinews Start
