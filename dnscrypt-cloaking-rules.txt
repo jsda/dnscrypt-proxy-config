@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2019, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-04-17
+# Last updated: 2019-04-24
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -29,8 +29,10 @@ tg-4.googlehosts.org	185.200.34.209
 tg-5.googlehosts.org	107.174.203.60
 45-124-64-82.googlehosts.org	45.124.64.82
 tg-6.googlehosts.org	45.124.64.82
+117-50-61-150.googlehosts.org	117.50.61.150
+tg-7.googlehosts.org	117.50.61.150
 106-75-2-132.googlehosts.org	106.75.2.132
-tg-7.googlehosts.org	106.75.2.132
+tg-7-b.googlehosts.org	106.75.2.132
 185-122-58-249.googlehosts.org	185.122.58.249
 tg-8.googlehosts.org	185.122.58.249
 103-105-48-234.googlehosts.org	103.105.48.234
@@ -127,6 +129,7 @@ www.apkmirror.com	104.19.133.58
 # Apkmirror End
 
 # Appspot Start
+# Pending fix
 www.appspot.com	172.217.168.209
 appspot.com	172.217.168.209
 events.withgoogle.com	172.217.168.209
@@ -161,6 +164,7 @@ spellup.withgoogle.com	172.217.168.209
 # Appspot End
 
 # Appspotpreview Start
+# Pending fix
 author-dot-betaspike.appspot.com	172.217.161.180
 jmoore-dot-android-experiments.appspot.com	172.217.161.180
 mission-author-dot-betaspike.appspot.com	172.217.161.180
@@ -184,9 +188,9 @@ go-tour-zh.appspot.com	172.217.14.116
 archive.org	207.241.224.4
 www.archive.org	207.241.224.4
 analytics.archive.org	207.241.225.95
-web-beta.archive.org	207.241.225.186
-wwwb-sentry.us.archive.org	207.241.225.186
-web.archive.org	207.241.225.186
+web-beta.archive.org	207.241.233.214
+wwwb-sentry.us.archive.org	207.241.233.214
+web.archive.org	207.241.233.214
 mail.archive.org	207.241.224.6
 books-general.archive.org	207.241.225.247
 # Archive End
@@ -247,13 +251,14 @@ assets-fe.change.org	104.16.4.13
 # Change.org End
 
 # Cloudfront Start
-d3njjcbhbojbot.cloudfront.net	52.85.85.246
+d3njjcbhbojbot.cloudfront.net	13.33.25.77
 d3c33hcgiwev3.cloudfront.net	52.85.83.12
 # Cloudfront End
 
 # Culturalspot Start
-embed.culturalspot.org	172.217.14.56
-globetoglobehamlet.culturalspot.org	172.217.14.96
+# Pending fix
+embed.culturalspot.org	216.58.200.238
+globetoglobehamlet.culturalspot.org	216.58.200.238
 # Culturalspot End
 
 # Conoha Start
@@ -267,6 +272,19 @@ manage.conoha.jp	150.95.236.31
 ctext.org	63.141.239.58
 library.ctext.org	63.141.239.58
 # Ctext End
+
+# DeviantArt Start
+pre00.deviantart.net	52.84.150.14
+deviantart.com	52.85.220.219
+www.deviantart.com	52.85.220.244
+deviantart.net	52.32.58.1
+st.deviantart.net	99.84.104.122
+a.deviantart.net	99.84.104.23
+e.deviantart.net	99.84.104.59
+i.deviantart.net	99.84.104.59
+orig00.deviantart.net	99.84.254.116
+t00.deviantart.net	99.84.254.32
+# DeviantArt End
 
 # Dropbox Start
 db.tt	162.125.248.2
@@ -2808,6 +2826,7 @@ store.imgur.com	151.101.100.193
 s.imgur.com	151.101.100.193
 p.imgur.com	151.101.100.193
 i.imgur.com	151.101.100.193
+i.stack.imgur.com	151.101.100.193
 # imgur End
 
 # Ingress Start
@@ -3300,6 +3319,15 @@ ptt.cc	140.112.172.1
 # Quora Start
 www.quora.com	192.229.189.142
 # Quora End
+
+# Rakuten Start
+rd.rakuten.co.jp	133.237.50.6
+esearch.rakuten.co.jp	133.237.61.71
+www.rakuten.co.jp	23.40.72.233
+globalexpress.rakuten.co.jp	40.115.251.146
+books.rakuten.co.jp	96.7.133.108
+search.rakuten.co.jp	96.7.133.108
+# Rakuten End
 
 # RawGit Start
 cdn.rawgit.com	198.232.125.81
