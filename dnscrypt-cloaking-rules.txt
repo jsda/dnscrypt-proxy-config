@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2019, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-04-24
+# Last updated: 2019-04-25
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -274,19 +274,31 @@ library.ctext.org	63.141.239.58
 # Ctext End
 
 # DeviantArt Start
-pre00.deviantart.net	52.84.150.14
 deviantart.com	52.85.220.219
 www.deviantart.com	52.85.220.244
+amazing-animal-art.deviantart.com	52.85.154.135
+bugidifino.deviantart.com	54.230.231.64
+bunny-no.deviantart.com	52.85.154.83
+chipmunkrulz.deviantart.com	52.85.154.133
+forum.deviantart.com	54.230.231.59
+fifi9322.deviantart.com	54.192.163.36
+groups.deviantart.com	54.192.163.44
+imstarving.deviantart.com	54.192.163.47
+isis-moon.deviantart.com	54.192.163.36
+shop.deviantart.com	52.85.154.83
 deviantart.net	52.32.58.1
 st.deviantart.net	99.84.104.122
 a.deviantart.net	99.84.104.23
 e.deviantart.net	99.84.104.59
 i.deviantart.net	99.84.104.59
+pre00.deviantart.net	52.84.150.14
 orig00.deviantart.net	99.84.254.116
 t00.deviantart.net	99.84.254.32
+film00.deviantart.net	13.33.47.221
 # DeviantArt End
 
 # Dropbox Start
+# Pending fix
 db.tt	162.125.248.2
 www.dropbox.com	162.125.248.1
 www.dualstack.dropbox-dns.com	162.125.248.1
@@ -518,8 +530,8 @@ video.xx.fbcdn.net	157.240.11.18
 # Facebook End
 
 # FlipBoard Start
-beacon.flipboard.com	52.44.186.59
-fbprod.flipboard.com	34.201.185.200
+beacon.flipboard.com	13.33.208.8
+fbprod.flipboard.com	13.33.208.8
 # FlipBoard End
 
 # Github Start
@@ -548,8 +560,8 @@ search.gmx.com	82.165.230.43
 # Gmx End
 
 # Goodreads Start
-www.goodreads.com	176.32.103.89
-ads.goodreads.com	176.32.102.212
+www.goodreads.com	54.239.26.220
+ads.goodreads.com	205.251.242.64
 # Goodreads End
 
 # Google Apis Start
@@ -2781,10 +2793,11 @@ mt7.gstatic.com	108.177.120.94
 
 # Hinet Start
 hichannel.hinet.net	211.20.148.228
+radio-hichannel.cdn.hinet.net	202.39.143.235
 # Hinet End
 
 # Heroku Start
-id.heroku.com	34.200.95.135
+id.heroku.com	52.200.255.123
 # Heroku End
 
 # HKGalden Start
@@ -2803,10 +2816,9 @@ img.eservice-hk.net	104.25.153.116
 # HKGolden End
 
 # HumbleBundle Start
-humble.pubnub.com	54.250.252.63
+humble.pubnub.com	54.249.82.168
 humblebundle.com	104.20.34.236
 pubnub.com	52.36.140.12
-www.humblebundle.com	216.58.200.243
 # HumbleBundle End
 
 # Hkjc Start
@@ -2818,24 +2830,24 @@ football.hkjc.com	101.78.207.158
 # Hkjc End
 
 # imgur Start
-imgur.com	151.101.100.193
-m.imgur.com	151.101.100.193
-api.imgur.com	151.101.100.193
-www.imgur.com	151.101.100.193
-store.imgur.com	151.101.100.193
-s.imgur.com	151.101.100.193
-p.imgur.com	151.101.100.193
-i.imgur.com	151.101.100.193
-i.stack.imgur.com	151.101.100.193
+imgur.com	151.101.40.193
+m.imgur.com	151.101.40.193
+api.imgur.com	151.101.40.193
+www.imgur.com	151.101.40.193
+store.imgur.com	151.101.40.193
+s.imgur.com	151.101.40.193
+p.imgur.com	151.101.40.193
+i.imgur.com	151.101.40.193
+i.stack.imgur.com	101.78.207.158
 # imgur End
 
 # Ingress Start
-appload.ingest.crittercism.com	54.193.15.78
-api.crittercism.com	54.193.15.78
+appload.ingest.crittercism.com	52.9.109.157
+api.crittercism.com	54.241.32.12
 txn.ingest.crittercism.com	54.193.253.0
-bootstrap.upsight-api.com	169.44.145.200
-single.upsight-api.com	169.44.145.200
-batch.upsight-api.com	169.44.145.200
+bootstrap.upsight-api.com	169.44.145.204
+single.upsight-api.com	169.44.145.204
+batch.upsight-api.com	169.44.145.204
 # Ingress End
 
 # Instagram Start
@@ -2980,7 +2992,7 @@ www.issuu.com	52.72.26.162
 developers.issuu.com	52.72.26.162
 page.issuu.com	52.72.26.162
 blog.issuu.com	66.6.32.22
-pingback.issuu.com	54.80.162.85
+pingback.issuu.com	35.241.35.151
 photo.issuu.com	151.101.65.63
 image.issuu.com	151.101.65.63
 content.issuu.com	151.101.65.63
@@ -2988,7 +3000,7 @@ e.issuu.com	151.101.65.63
 static.issuu.com	151.101.65.63
 skin.issuu.com	151.101.65.63
 api.issuu.com	52.1.172.141
-help.issuu.com	34.205.198.51
+help.issuu.com	104.16.53.111
 # issuu End
 
 # Kik Start
