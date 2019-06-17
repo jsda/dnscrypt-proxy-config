@@ -11,11 +11,15 @@ doh_servers = true
 require_dnssec = false
 require_nolog = true
 require_nofilter = true
+disabled_server_names = []
 force_tcp = true
 # proxy = "socks5://127.0.0.1:9050"
+# http_proxy = "http://127.0.0.1:8888"
 timeout = 2500
 keepalive = 30
+refused_code_in_responses = false
 lb_strategy = 'p2'
+lb_estimator = true
 log_level = 0
 log_file = 'dnscrypt-proxy.log'
 use_syslog = false
@@ -25,7 +29,8 @@ tls_disable_session_tickets = false
 tls_cipher_suite = [52392, 49199]
 fallback_resolver = '9.9.9.9:53'
 ignore_system_dns = false
-netprobe_timeout = 30
+netprobe_timeout = 60
+netprobe_address = "9.9.9.9:53"
 # offline_mode = false
 log_files_max_size = 10
 log_files_max_age = 7
@@ -62,6 +67,7 @@ cache_neg_max_ttl = 600
 [query_log]
   file = 'dnscrypt-query.log'
   format = 'tsv'
+  # ignored_qtypes = ['DNSKEY', 'NS']
 
 ############################################
 #        Suspicious queries logging        #
@@ -103,4 +109,4 @@ cache_neg_max_ttl = 600
   [static.'cloudflare']
   stamp = 'sdns://AgcAAAAAAAAABzEuMC4wLjGgENk8mGSlIfMGXMOlIlCcKvq7AVgcrZxtjon911-ep0cg63Ul-I8NlFj4GplQGb_TTLiczclX57DvMV8Q-JdjgRgSZG5zLmNsb3VkZmxhcmUuY29tCi9kbnMtcXVlcnk'
 #  [static.'google']
-#  stamp = 'sdns://AgUAAAAAAAAAACDyXGrcc5eNecJ8nomJCJ-q6eCLTEn6bHic0hWGUwYQaA5kbnMuZ29vZ2xlLmNvbQ0vZXhwZXJpbWVudGFs'
+#  stamp = 'sdns://AgUAAAAAAAAAAKAe9iTP_15r07rd8_3b_epWVGfjdymdx-5mdRZvMAzBuSB2gCRHoBmTGj8AQwTFP9xsGyw3jcS-j3Ozn9nJad-0RQ5kbnMuZ29vZ2xlLmNvbQ0vZXhwZXJpbWVudGFs'
