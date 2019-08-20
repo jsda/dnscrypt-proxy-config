@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2019, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-07-21
+# Last updated: 2019-08-19
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -16,9 +16,6 @@ localhost	127.0.0.1
 # Localhost (DO NOT REMOVE) End
 
 # GoogleHosts Start
-23-95-9-4.googlehosts.org	23.95.9.4
-tg-1.googlehosts.org	23.95.9.4
-204-44-101-36.googlehosts.org	204.44.101.36
 185-200-34-198.googlehosts.org	185.200.34.198
 tg-2.googlehosts.org	185.200.34.198
 107-174-205-58.googlehosts.org	107.174.205.58
@@ -27,42 +24,18 @@ tg-3.googlehosts.org	107.174.205.58
 tg-4.googlehosts.org	185.200.34.209
 107-174-203-60.googlehosts.org	107.174.203.60
 tg-5.googlehosts.org	107.174.203.60
-45-124-64-82.googlehosts.org	45.124.64.82
-tg-6.googlehosts.org	45.124.64.82
 117-50-61-150.googlehosts.org	117.50.61.150
 tg-7.googlehosts.org	117.50.61.150
 106-75-2-132.googlehosts.org	106.75.2.132
 tg-7-b.googlehosts.org	106.75.2.132
-185-122-58-249.googlehosts.org	185.122.58.249
-tg-8.googlehosts.org	185.122.58.249
 103-105-48-234.googlehosts.org	103.105.48.234
 tg-9.googlehosts.org	103.105.48.234
-103-68-223-109.googlehosts.org	103.68.223.109
-tg-10.googlehosts.org	103.68.223.109
-23-226-136-24.googlehosts.org	23.226.136.24
-ss-1.googlehosts.org	23.226.136.24
-23-226-136-132.googlehosts.org	23.226.136.132
-ss-2.googlehosts.org	23.226.136.132
-66-154-108-62.googlehosts.org	66.154.108.62
-23-226-136-216.googlehosts.org	23.226.136.216
-ss-3.googlehosts.org	23.226.136.216
-155-94-137-77.googlehosts.org	155.94.137.77
+45-89-228-109.googlehosts.org	45.89.228.109
+tg-10.googlehosts.org	45.89.228.109
 185-22-152-42.googlehosts.org	185.22.152.42
 ss-3.googlehosts.org	185.22.152.42
-167-88-168-251.googlehosts.org	167.88.168.251
-167-88-163-163.googlehosts.org	167.88.163.163
-ss-4.googlehosts.org	167.88.163.163
-23-95-54-162.googlehosts.org	23.95.54.162
 103-124-106-174.googlehosts.org	103.124.106.174
 proxy.googlehosts.org	103.124.106.174
-45-59-113-167.googlehosts.org	45.59.113.167
-status.googlehosts.org	45.59.113.167
-45-59-113-168.googlehosts.org	45.59.113.168
-www.googlehosts.org	45.59.113.168
-45-59-113-169.googlehosts.org	45.59.113.169
-netlog-viewer.googlehosts.org	45.59.113.169
-45-59-113-172.googlehosts.org	45.59.113.172
-main-ssh.googlehosts.org	45.59.113.172
 # GoogleHosts End
 
 # Akamai Start
@@ -291,6 +264,12 @@ manage.conoha.jp	150.95.236.31
 ctext.org	63.141.239.58
 library.ctext.org	63.141.239.58
 # Ctext End
+
+# Doubi Start
+doubibackup.com	104.24.116.224
+doubmirror.cf	104.24.126.191
+softsmirror.cf	104.27.137.174
+# Doubi End
 
 # Kakao:Daum Start
 ruliweb.daum.net	103.24.8.9
@@ -1144,6 +1123,15 @@ t00.deviantart.net	99.84.254.32
 film00.deviantart.net	13.33.47.221
 # DeviantArt End
 
+# DMHY Start
+bbs.dmhy.org	104.25.27.31
+dl.dmhy.org	104.25.27.31
+dmhy.org	104.25.27.31
+share.dmhy.org	104.25.27.31
+u2.dmhy.org	104.25.27.31
+www.dmhy.org	104.25.27.31
+# DMHY End
+
 # Dropbox Start
 # Pending fix
 db.tt	162.125.248.2
@@ -1527,27 +1515,28 @@ googledevelopers.blogspot.com	172.217.168.201
 # Google Blogger End
 
 # Google Code Start
-www.googlesource.com	173.194.198.82
-googlesource.com	173.194.198.82
-code.googlesource.com	173.194.198.82
-fuchsia.googlesource.com	173.194.198.82
-gerrit-review.googlesource.com	173.194.198.82
-kernel.googlesource.com	173.194.198.82
-uploads.code.google.com	173.194.198.82
-gwt.googlesource.com	173.194.198.82
-gcr.io	173.194.198.82
-www.gcr.io	173.194.198.82
-chromium.googlesource.com	172.217.194.82
 gerrit.googlesource.com	108.177.127.82
-quiche.googlesource.com	172.217.194.82
+go.googlesource.com	108.177.127.82
+android-review.googlesource.com	172.217.194.82
+android.googlesource.com	172.217.194.82
 boringssl.googlesource.com	172.217.194.82
+chromium.googlesource.com	172.217.194.82
 dawn.googlesource.com	172.217.194.82
 pdfium.googlesource.com	172.217.194.82
+quiche.googlesource.com	172.217.194.82
 skia.googlesource.com	172.217.194.82
 swiftshader.googlesource.com	172.217.194.82
 webrtc.googlesource.com	172.217.194.82
-android-review.googlesource.com	172.217.194.82
-android.googlesource.com	172.217.194.82
+code.googlesource.com	173.194.198.82
+fuchsia.googlesource.com	173.194.198.82
+gcr.io	173.194.198.82
+gerrit-review.googlesource.com	173.194.198.82
+googlesource.com	173.194.198.82
+gwt.googlesource.com	173.194.198.82
+kernel.googlesource.com	173.194.198.82
+uploads.code.google.com	173.194.198.82
+www.gcr.io	173.194.198.82
+www.googlesource.com	173.194.198.82
 # Google Code End
 
 # Google Country Start
@@ -3649,7 +3638,7 @@ radio-hichannel.cdn.hinet.net	202.39.143.235
 # Hinet End
 
 # Heroku Start
-id.heroku.com	52.200.255.123
+id.heroku.com	34.192.228.6
 # Heroku End
 
 # HKGalden Start
@@ -4227,7 +4216,37 @@ www.psiphon.ca	104.20.38.14
 ptt.cc	140.112.172.1
 # Ptt End
 
+# Pubu Start
+gtbook.pubu.com.tw	175.41.144.51
+www.pubu.com.tw	175.41.144.51
+res1.pubu.tw	54.230.108.227
+res2.pubu.tw	99.84.143.35
+static.pubu.tw	99.84.143.46
+res3.pubu.tw	99.84.143.51
+res4.pubu.tw	99.84.59.53
+# Pubu End
+
 # Quora Start
+help.quora.com	104.16.52.111
+blog.quora.com	151.101.73.2
+bn.quora.com	151.101.73.2
+da.quora.com	151.101.73.2
+de.quora.com	151.101.73.2
+en-us.quora.com	151.101.73.2
+es.quora.com	151.101.73.2
+fi.quora.com	151.101.73.2
+fr.quora.com	151.101.73.2
+hi.quora.com	151.101.73.2
+id.quora.com	151.101.73.2
+it.quora.com	151.101.73.2
+jp.quora.com	151.101.73.2
+mn.quora.com	151.101.73.2
+nl.quora.com	151.101.73.2
+no.quora.com	151.101.73.2
+pt.quora.com	151.101.73.2
+qsf.fs.quoracdn.net	151.101.73.2
+sv.quora.com	151.101.73.2
+ta.quora.com	151.101.73.2
 www.quora.com	192.229.189.142
 # Quora End
 
@@ -4241,7 +4260,8 @@ search.rakuten.co.jp	96.7.133.108
 # Rakuten End
 
 # RawGit Start
-cdn.rawgit.com	198.232.125.81
+rawgit.com	104.27.188.178
+cdn.rawgit.com	151.139.237.11
 # RawGit End
 
 # Reuters Start
@@ -4414,9 +4434,6 @@ updates.tdesktop.com	149.154.167.80
 # Telegram End
 
 # Tor Start
-torproject.org	38.229.72.17
-www.torproject.org	154.35.175.245
-dist.torproject.org	78.47.38.226
 atlas.torproject.org	138.201.14.197
 bugs.torproject.org	138.201.14.197
 cloud.torproject.org	138.201.14.197
@@ -4432,63 +4449,69 @@ spec.torproject.org	138.201.14.197
 stem.torproject.org	138.201.14.197
 tb-manual.torproject.org	138.201.14.197
 wiki.torproject.org	138.201.14.197
-archive.torproject.org	94.130.28.200
-media.torproject.org	82.195.75.101
-blog.torproject.org	23.185.0.2
-bridges.torproject.org	78.47.38.229
+www.torproject.org	138.201.14.197
+svn.torproject.org	138.201.14.206
 check.torproject.org	138.201.14.212
-collector.torproject.org	195.201.54.247
-exonerator.torproject.org	195.201.54.247
-db.torproject.org	94.130.28.196
-donate.torproject.org	138.201.212.231
+trac.torproject.org	138.201.212.227
 git.torproject.org	138.201.212.228
 gitweb.torproject.org	138.201.212.228
+rt.torproject.org	138.201.212.230
+donate.torproject.org	138.201.212.231
+onionoo.torproject.org	154.35.132.148
 labs.torproject.org	161.47.6.182
+people.torproject.org	195.201.54.244
+collector.torproject.org	195.201.54.247
+exonerator.torproject.org	195.201.54.247
+blog.torproject.org	23.185.0.2
+explorer.ooni.torproject.org	37.218.242.173
+torproject.org	38.229.72.17
+bridges.torproject.org	78.47.38.229
+storm.torproject.org	78.47.38.231
+dist.torproject.org	82.195.75.101
+media.torproject.org	82.195.75.101
+db.torproject.org	94.130.28.196
+archive.torproject.org	94.130.28.200
 lists.torproject.org	94.130.28.202
 metrics.torproject.org	94.130.28.202
-onionoo.torproject.org	154.35.132.148
-explorer.ooni.torproject.org	37.218.242.173
-people.torproject.org	195.201.54.244
-rt.torproject.org	138.201.212.230
-storm.torproject.org	78.47.38.231
-svn.torproject.org	138.201.14.206
-trac.torproject.org	138.201.212.227
 # Tor End
 
 # Twitch Start
-twitch.tv	151.101.66.167
-www.twitch.tv	151.101.230.167
-app.twitch.tv	54.84.222.78
 api.twitch.tv	104.94.41.138
-badges.twitch.tv	52.40.25.185
-blog.twitch.tv	52.4.145.119
-client-event-reporter.twitch.tv	52.26.110.179
-cvp.twitch.tv	23.12.207.125
-countess.twitch.tv	34.216.28.142
-dev.twitch.tv	52.84.47.22
-discuss.dev.twitch.tv	52.39.89.40
-extension-files.twitch.tv	54.192.151.87
 gql.twitch.tv	151.101.110.167
+www.twitch.tv	151.101.230.167
+twitch.tv	151.101.66.167
 help.twitch.tv	184.169.164.174
-player.twitch.tv	23.77.13.84
-passport.twitch.tv	54.71.196.178
-spade.twitch.tv	35.161.182.231
-trowel.twitch.tv	34.212.220.91
-music.twitch.tv	35.185.17.162
-spade.sci.twitch.tv	54.69.142.1
-clips-media-assets2.twitch.tv	54.192.151.22
+cvp.twitch.tv	23.12.207.125
 usher.ttvnw.net	23.160.0.254
-vod-storyboards.twitch.tv	54.192.151.7
-pubsub-edge.twitch.tv	52.24.180.27
+player.twitch.tv	23.77.13.84
+trowel.twitch.tv	34.212.220.91
+countess.twitch.tv	34.216.28.142
+spade.twitch.tv	35.161.182.231
+video-edge-867df2.sjc02.hls.ttvnw.net	35.163.32.174
 irc-ws.chat.twitch.tv	35.164.18.6
-video-weaver.sjc02.hls.ttvnw.net	52.223.241.18
-video-edge-6c210a.sjc02.hls.ttvnw.net	54.200.235.249
-video-edge-91c358.sjc02.hls.ttvnw.net	52.24.56.73
-video-edge-98de7c.sjc02.hls.ttvnw.net	54.191.74.73
-video-edge-a37110.sjc02.abs.hls.ttvnw.net	52.223.253.59
-video-edge-a4da6d.sjc02.hls.ttvnw.net	52.41.6.153
 video-edge-af973f.sjc02.hls.ttvnw.net	35.165.41.164
+music.twitch.tv	35.185.17.162
+video-edge-7e96a0.sea01.abs.hls.ttvnw.net	52.223.227.246
+video-edge-7e9938.sea01.abs.hls.ttvnw.net	52.223.228.119
+video-weaver.sjc02.hls.ttvnw.net	52.223.241.18
 video-edge-7ea270.sjc02.abs.hls.ttvnw.net	52.223.252.212
+video-edge-a37110.sjc02.abs.hls.ttvnw.net	52.223.253.59
+pubsub-edge.twitch.tv	52.24.180.27
+video-edge-91c358.sjc02.hls.ttvnw.net	52.24.56.73
+client-event-reporter.twitch.tv	52.26.110.179
+discuss.dev.twitch.tv	52.39.89.40
+blog.twitch.tv	52.4.145.119
+badges.twitch.tv	52.40.25.185
+video-edge-a4da6d.sjc02.hls.ttvnw.net	52.41.6.153
+dev.twitch.tv	52.84.47.22
+video-edge-98de7c.sjc02.hls.ttvnw.net	54.191.74.73
+clips-media-assets2.twitch.tv	54.192.151.22
+vod-storyboards.twitch.tv	54.192.151.7
+extension-files.twitch.tv	54.192.151.87
+video-edge-6c210a.sjc02.hls.ttvnw.net	54.200.235.249
+spade.sci.twitch.tv	54.69.142.1
+passport.twitch.tv	54.71.196.178
+app.twitch.tv	54.84.222.78
 # Twitch End
 
 # Twitter Start
@@ -4496,6 +4519,10 @@ abs.twimg.com	117.18.237.70
 pbs.twimg.com	117.18.237.70
 ton.twimg.com	117.18.237.70
 # Twitter End
+
+# Uncyclopedia Start
+uncyclopedia.tw	104.28.18.4
+# Uncyclopedia End
 
 # Vimeo Start
 vimeo.com	151.101.0.217
