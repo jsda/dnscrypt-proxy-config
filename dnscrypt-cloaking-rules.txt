@@ -4,7 +4,7 @@
 
 # Copyright (c) 2017-2019, googlehosts members.
 # https://github.com/googlehosts/hosts
-# Last updated: 2019-08-19
+# Last updated: 2019-08-20
 
 # This work is licensed under a modified HOSTS License.
 # https://github.com/googlehosts/hosts/raw/master/LICENSE
@@ -37,6 +37,12 @@ ss-3.googlehosts.org	185.22.152.42
 103-124-106-174.googlehosts.org	103.124.106.174
 proxy.googlehosts.org	103.124.106.174
 # GoogleHosts End
+
+# AbeBooks Start
+data.abebooks.com	199.255.34.38
+www.abebooks.com	52.87.120.250
+pictures.abebooks.com	99.84.58.39
+# AbeBooks End
 
 # Akamai Start
 a248.e.akamai.net	23.32.241.9
@@ -171,6 +177,12 @@ mail.archive.org	207.241.224.6
 books-general.archive.org	207.241.225.247
 # Archive End
 
+# ARTE Start
+api.arte.tv	212.95.74.30
+www.arte.tv	212.95.74.37
+static-cdn.arte.tv	23.50.102.235
+# ARTE End
+
 # Arukas Start
 app.arukas.io	27.133.136.8
 # Arukas End
@@ -218,14 +230,41 @@ a5.behance.net	54.192.182.143
 mir-cdn-cf.behance.net	54.192.75.182
 # Behance End
 
+# BigGo Start
+img.biggo.com.tw	61.222.241.167
+biggo.com.tw	61.222.241.168
+# BigGo End
+
 # Box Start
 app.box.com	107.152.24.198
 m.box.com	107.152.24.197
 # Box End
 
+# Bussiness Insider Start
+static2.businessinsider.com	151.101.1.171
+static5.businessinsider.com	151.101.1.171
+www.businessinsider.com	151.101.193.171
+amp.businessinsider.com	151.101.229.171
+geoip.businessinsider.com	151.101.229.171
+static6.businessinsider.com	151.101.229.171
+static1.businessinsider.com	151.101.73.171
+static3.businessinsider.com	151.101.73.171
+static4.businessinsider.com	151.101.73.171
+analytics.businessinsider.com	151.101.88.64
+# Bussiness Insider End
+
 # Buzzfeed Start
 img.buzzfeed.com	151.101.2.114
 # Buzzfeed End
+
+# CD Universe Start
+c6.cduniverse.ws	110.232.178.118
+c7.cduniverse.ws	110.232.178.118
+c8.cduniverse.ws	110.232.178.118
+c9.cduniverse.ws	110.232.178.118
+www.cduniverse.com	110.232.178.118
+cduniverse.ws	72.248.115.70
+# CD Universe End
 
 # Change.org Start
 www.change.org	104.16.5.13
@@ -236,7 +275,7 @@ assets-fe.change.org	104.16.4.13
 
 # Cloudfront Start
 d3njjcbhbojbot.cloudfront.net	13.33.25.77
-d3c33hcgiwev3.cloudfront.net	52.85.83.12
+d3c33hcgiwev3.cloudfront.net	99.84.138.226
 # Cloudfront End
 
 # Clyp Start
@@ -246,6 +285,12 @@ clyp.it	13.33.231.37
 soundwave.clyp.it	13.33.231.37
 static.clyp.it	13.33.231.37
 # Clyp End
+
+# CNA Start
+img5.cna.com.tw	210.242.210.65
+www.cna.com.tw	211.72.255.204
+img4.cna.com.tw	72.21.81.200
+# CNA End
 
 # Culturalspot Start
 # Pending fix
@@ -265,11 +310,31 @@ ctext.org	63.141.239.58
 library.ctext.org	63.141.239.58
 # Ctext End
 
+# DailyView Start
+dailyview.tw	52.230.12.205
+# DailyView End
+
 # Doubi Start
 doubibackup.com	104.24.116.224
 doubmirror.cf	104.24.126.191
 softsmirror.cf	104.27.137.174
 # Doubi End
+
+# Kadokawa Start
+kmh.kadokawa.co.jp	183.177.40.106
+kadokawa-mg.kadokawa.co.jp	183.177.40.130
+kadokawa.co.jp	183.177.40.130
+kadokawagakugei.kadokawa.co.jp	183.177.40.130
+kadokawashoten.kadokawa.co.jp	183.177.40.130
+mediafactory.kadokawa.co.jp	183.177.40.130
+www.kadokawa.co.jp	183.177.40.130
+asciimw.kadokawa.co.jp	183.177.40.228
+ir.kadokawa.co.jp	183.177.42.87
+license.kadokawa.co.jp	183.177.44.38
+www.chara-ani.com	202.213.45.132
+mediaguide.kadokawa.co.jp	54.230.193.207
+store.kadokawa.co.jp	99.84.181.106
+# Kadokawa End
 
 # Kakao:Daum Start
 ruliweb.daum.net	103.24.8.9
@@ -1246,6 +1311,10 @@ computer.discuss.com.hk	104.20.170.49
 www.dynu.com	207.38.70.29
 # Dynu End
 
+# Euronews Start
+static.euronews.com	8.252.15.252
+# Euronews End
+
 # Facebook Start
 www.facebook.com	157.240.7.35
 fb.me	157.240.7.35
@@ -1364,10 +1433,23 @@ threatexchange.fb.com	192.0.66.2
 video.xx.fbcdn.net	157.240.11.18
 # Facebook End
 
+# Fastly Start
+freetls.fastly.net	151.101.110.79
+tampermonkey.freetls.fastly.net	151.101.230.79
+# Fastly End
+
+# Feedly Start
+cloud.feedly.com	104.20.60.241
+# Feedly End
+
 # FlipBoard Start
 beacon.flipboard.com	13.33.208.8
 fbprod.flipboard.com	13.33.208.8
 # FlipBoard End
+
+# Foreign Policy Start
+foreignpolicy.com	192.0.79.32
+# Foreign Policy End
 
 # Github Start
 gist.github.com	192.30.253.118
@@ -3766,7 +3848,7 @@ scontent-b-lht.cdninstagram.com	157.240.1.172
 scontent-lht6-1.cdninstagram.com	157.240.1.172
 scontent-a-mad.cdninstagram.com	31.13.83.52
 scontent-b-mad.cdninstagram.com	31.13.83.52
-scontent-mad1-1.cdninstagram.comc	31.13.83.52
+scontent-mad1-1.cdninstagram.com	31.13.83.52
 scontent-a-mrs.cdninstagram.com	31.13.75.174
 scontent-b-mrs.cdninstagram.com	31.13.75.174
 scontent-mrs1-1.cdninstagram.com	31.13.75.174
@@ -3855,6 +3937,16 @@ t1.kakaocdn.net	115.127.250.75
 # Kik Start
 www.kik.com	104.20.171.40
 # Kik End
+
+# Kinokuniya Start
+faq.kinokuniya.co.jp	124.146.171.177
+mirai.kinokuniya.co.jp	124.36.142.42
+malaysia.kinokuniya.com	176.32.73.17
+singapore.kinokuniya.com	176.32.73.17
+thailand.kinokuniya.com	176.32.73.17
+uae.kinokuniya.com	176.32.73.17
+www.kinokuniya.co.jp	203.216.212.234
+# Kinokuniya End
 
 # Kobo Start
 magazines-adf.kobo.com	84.39.136.9
@@ -4029,10 +4121,11 @@ graph.lihkg.com	104.19.140.58
 i.lihkg.com	104.19.140.58
 # Lihkg End
 
-# MEGA Start
-mega.nz	31.216.148.10
-g.cdn1.mega.co.nz	117.18.237.188
-# MEGA End
+# Matters.news Start
+assets.matters.news	13.32.52.37
+matters.news	54.192.151.121
+server.matters.news	54.254.167.73
+# Matters.news End
 
 # Medium Start
 medium.com	104.16.120.127
@@ -4042,6 +4135,11 @@ cdn-images-1.medium.com	104.16.120.145
 cdn-images-2.medium.com	104.16.120.145
 glyph.medium.com	104.16.121.145
 # Medium End
+
+# MEGA Start
+mega.nz	31.216.148.10
+g.cdn1.mega.co.nz	117.18.237.188
+# MEGA End
 
 # Nytimes Start
 messaging-sub.api.nytimes.com	34.225.58.16
@@ -4087,6 +4185,32 @@ my.pcloud.com	74.120.8.13
 # Pepitastore Start
 ips.pepitastore.com	68.232.44.109
 # Pepitastore End
+
+# Periscope Start
+pscp.tv	13.124.246.138
+www.pscp.tv	13.124.203.13
+channels.pscp.tv	52.39.74.21
+proxsee.pscp.tv	54.200.114.148
+assets.pscp.tv	54.192.73.58
+prod-profile.pscp.tv	54.192.73.58
+prod-thumbnail.pscp.tv	54.192.73.58
+prod-video-ap-northeast-1.pscp.tv	151.101.2.164
+prod-video-ap-southeast-1.pscp.tv	151.101.2.164
+prod-video-ap-southeast-2.pscp.tv	151.101.66.164
+prod-video-eu-central-1.pscp.tv	151.101.66.164
+prod-video-us-east-1.pscp.tv	151.101.130.164
+prod-video-sa-east-1.pscp.tv	151.101.194.164
+prod-video-us-west-2.pscp.tv	151.101.194.164
+prod-video-us-west-1.pscp.tv	151.101.78.164
+prod-video-eu-west-1.pscp.tv	151.101.78.164
+prod-chatman-ancillary-eu-central-1.pscp.tv	18.194.108.2
+prod-chatman-ancillary-us-east-1.pscp.tv	34.233.63.45
+prod-chatman-ancillary-us-west-2.pscp.tv	35.160.28.174
+# Periscope End
+
+# Pincong Start
+pincong.rocks	104.18.54.73
+# Pincong End
 
 # Pinterest Start
 pinterest.com	151.101.128.84
@@ -4174,28 +4298,6 @@ embed.pixiv.net	210.140.131.182
 comic-api.pixiv.net	210.140.131.183
 pay.pixiv.net	210.140.131.184
 # Pixiv End
-
-# Periscope Start
-pscp.tv	13.124.246.138
-www.pscp.tv	13.124.203.13
-channels.pscp.tv	52.39.74.21
-proxsee.pscp.tv	54.200.114.148
-assets.pscp.tv	54.192.73.58
-prod-profile.pscp.tv	54.192.73.58
-prod-thumbnail.pscp.tv	54.192.73.58
-prod-video-ap-northeast-1.pscp.tv	151.101.2.164
-prod-video-ap-southeast-1.pscp.tv	151.101.2.164
-prod-video-ap-southeast-2.pscp.tv	151.101.66.164
-prod-video-eu-central-1.pscp.tv	151.101.66.164
-prod-video-us-east-1.pscp.tv	151.101.130.164
-prod-video-sa-east-1.pscp.tv	151.101.194.164
-prod-video-us-west-2.pscp.tv	151.101.194.164
-prod-video-us-west-1.pscp.tv	151.101.78.164
-prod-video-eu-west-1.pscp.tv	151.101.78.164
-prod-chatman-ancillary-eu-central-1.pscp.tv	18.194.108.2
-prod-chatman-ancillary-us-east-1.pscp.tv	34.233.63.45
-prod-chatman-ancillary-us-west-2.pscp.tv	35.160.28.174
-# Periscope End
 
 # Potplayer Start
 potplayer.daum.net	211.231.108.181
@@ -4301,9 +4403,34 @@ www.resilio.com	54.192.75.27
 new-bench.resilio.com	54.82.227.39
 # Resilio Sync End
 
+# rixCloud Start
+rixcloud.com	13.107.246.10
+rixcloud.us	151.101.1.195
+# rixCloud End
+
+# SCMP Start
+www.scmp.com	104.16.215.232
+# SCMP End
+
 # Shadowsocks Start
 shadowsocks.org	104.28.18.85
 # Shadowsocks End
+
+# Slideshare Start
+www.slideshare.net	144.2.3.20
+de.slideshare.net	144.2.3.20
+es.slideshare.net	144.2.3.20
+fr.slideshare.net	144.2.3.20
+pt.slideshare.net	144.2.3.20
+engineering.slideshare.net	108.174.10.14
+blog.slideshare.net	108.174.10.14
+slideshare.net	108.174.10.19
+# Slideshare End
+
+# Smartdnsproxy Start
+www.smartdnsproxy.com	45.64.64.96
+support.smartdnsproxy.com	54.215.198.167
+# Smartdnsproxy End
 
 # Soundcloud Start
 soundcloud.com	68.232.44.127
@@ -4327,22 +4454,6 @@ style.sndcdn.com	72.21.91.96
 va.sndcdn.com	72.21.91.96
 # Soundcloud End
 
-# Slideshare Start
-www.slideshare.net	144.2.3.20
-de.slideshare.net	144.2.3.20
-es.slideshare.net	144.2.3.20
-fr.slideshare.net	144.2.3.20
-pt.slideshare.net	144.2.3.20
-engineering.slideshare.net	108.174.10.14
-blog.slideshare.net	108.174.10.14
-slideshare.net	108.174.10.19
-# Slideshare End
-
-# Smartdnsproxy Start
-www.smartdnsproxy.com	45.64.64.96
-support.smartdnsproxy.com	54.215.198.167
-# Smartdnsproxy End
-
 # Startpage & Ixquick Start
 startpage.com	216.218.239.62
 www.startpage.com	216.218.239.22
@@ -4356,11 +4467,31 @@ support.ixquick.com	64.71.134.121
 steamcommunity.com	104.71.136.93
 # Steam End
 
+# SupChina Start
+supchina.com	104.27.131.29
+# SupChina End
+
+# SWI Start
+www.swissinfo.ch	23.10.10.243
+# SWI End
+
+# The Economist Start
+www.economist.com	199.83.128.108
+# The Economist End
+
 # Theinitium Start
 stigma.theinitium.com	52.76.148.61
 theinitium.com	52.221.46.214
 api.theinitium.com	52.221.46.214
 # Theinitium End
+
+# The Nation Start
+www.thenation.com	192.229.179.32
+# The Nation End
+
+# TheTVDB Start
+www.thetvdb.com	104.16.230.14
+# TheTVDB End
 
 # TopickHK Start
 topick.hket.com	118.143.30.216
@@ -4523,6 +4654,10 @@ ton.twimg.com	117.18.237.70
 # Uncyclopedia Start
 uncyclopedia.tw	104.28.18.4
 # Uncyclopedia End
+
+# Up Media Start
+www.upmedia.mg	192.124.249.65
+# Up Media End
 
 # Vimeo Start
 vimeo.com	151.101.0.217
@@ -16722,5 +16857,17 @@ r18---sn-oguesnle.xn--ngstr-lra8j.com	173.194.51.87
 r19---sn-oguesnle.xn--ngstr-lra8j.com	173.194.51.88
 r20---sn-oguesnle.xn--ngstr-lra8j.com	173.194.51.89
 # Google XN End
+
+# GreatFire Start
+freewechat.com	104.25.179.28
+freeweibo.com	104.25.239.102
+cc.greatfire.org	104.25.53.117
+en.greatfire.org	104.25.53.117
+freebrowser.org	104.25.53.117
+startpage.freebrowser.org	104.25.53.117
+zh.greatfire.org	104.25.53.117
+greatfire.org	104.25.54.117
+pao-pao.net	104.28.9.217
+# GreatFire End
 
 # Modified Hosts End
