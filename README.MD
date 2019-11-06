@@ -12,5 +12,3 @@ dnscrypt-proxy -service uninstall  #卸载dnscrypt-proxy服务
 
 ## 服务器列表（配置使用了Cisco OpenDNS）
 https://github.com/DNSCrypt/dnscrypt-resolvers/raw/master/v2/public-resolvers.md
-
-按国家/地区分类列表：https://mastad0n.github.io/
