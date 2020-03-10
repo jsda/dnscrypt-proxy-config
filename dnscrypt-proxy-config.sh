@@ -17,10 +17,10 @@ echo '# Converted from https://github.com/missdeer/blocklist/blob/master/toblock
 echo '# https://github.com/missdeer/blocklist' >>dnscrypt-blacklist-domains.txt
 echo '# Thanks to all contributors.' >>dnscrypt-blacklist-domains.txt
 echo '' >>dnscrypt-blacklist-domains.txt
-echo 'ad.*' >>dnscrypt-blacklist-domains.txt
-echo 'ad[0-9]*' >>dnscrypt-blacklist-domains.txt
-echo 'ads.*' >>dnscrypt-blacklist-domains.txt
-echo 'ads[0-9]*' >>dnscrypt-blacklist-domains.txt
+#echo 'ad.*' >>dnscrypt-blacklist-domains.txt
+#echo 'ad[0-9]*' >>dnscrypt-blacklist-domains.txt
+#echo 'ads.*' >>dnscrypt-blacklist-domains.txt
+#echo 'ads[0-9]*' >>dnscrypt-blacklist-domains.txt
 cat toblock-without-shorturl-optimized.lst | grep -v '^#' | tr -s '\n' | tr A-Z a-z | grep -v '^ad\.' | grep -v -e '^ad[0-9]' | grep -v '^ads\.' | grep -v -e '^ads[0-9]' | rev | sort -n | uniq | rev >>dnscrypt-blacklist-domains.txt
 
 wget -N https://github.com/googlehosts/hosts/raw/master/hosts-files/dnscrypt-proxy-cloaking.txt
@@ -34,6 +34,6 @@ rm accelerated-domains.china.conf bogus-nxdomain.china.conf toblock-without-shor
 
 wget -N https://raw.githubusercontent.com/jedisct1/dnscrypt-proxy/master/dnscrypt-proxy/example-dnscrypt-proxy.toml
 
-git add .
-git commit -m "`date`"
-git push origin master
+#git add .
+#git commit -m "`date`"
+#git push origin master

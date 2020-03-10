@@ -1,0 +1,48 @@
+#
+# This is free software, lisence use MIT.
+#
+# Copyright (C) 2019 KFERMercer <KFER.Mercer@gmail.com>
+#
+# <https://github.com/KFERMercer/OpenWrt-CI>
+#
+
+name: Merge-upstream
+
+on:
+#  release:
+#    types: [published]
+  push:
+    branches:
+      - master
+#    paths:
+#      - 'x64.config'
+  schedule:
+    - cron: '0 17 * * *'
+#  watch:
+#    types: [started]
+
+jobs:
+  merge:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@master
+      with:
+        ref: master
+        fetch-depth: 0
+        lfs: true
+
+    - name: Set git identity
+      run: |
+        git config --global user.email "actions@github.com"
+        git config --global user.name "actions"
+
+    - name: Sync Packages
+      run: |
+        ./dnscrypt-proxy-config.sh
+        echo "======================="
+        git add . && git commit -m "bot update" && git push && echo "更新完毕!!!" || echo "暂无更新!!!"
+        echo "======================="
