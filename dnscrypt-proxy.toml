@@ -17,6 +17,8 @@ block_ipv6 = true
 #仅增加延迟。
 force_tcp = true
 #SOCKS代理
+#配合上游代理socks5端口使用
+#没有socks5代理请关闭！！！
 proxy = 'socks5://127.0.0.1:1080'
 ## HTTP/HTTPS proxy
 # http_proxy = 'http://127.0.0.1:8888'
