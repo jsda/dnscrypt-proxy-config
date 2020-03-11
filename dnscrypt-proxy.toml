@@ -1,6 +1,13 @@
 ipv4_servers = true
 #ipv6服务开关
 ipv6_servers = false
+#是否禁用ipv6查询
+block_ipv6 = true
+max_clients = 300
+dnscrypt_servers = true
+doh_servers = true
+daemonize = false
+timeout = 5000
 require_dnssec = false
 #服务器不得记录用户查询（声明性）
 require_nolog = true
@@ -8,8 +15,6 @@ require_nolog = true
 require_nofilter = true
 #服务器名称应避免使用，即使它们符合所有条件
 disabled_server_names = []
-#是否禁用ipv6
-block_ipv6 = true
 #始终使用TCP连接到上游服务器。
 #如果您需要通过Tor路由所有内容，这将很有用。
 #否则，将其保留为“ false”，因为它不会提高安全性
@@ -19,7 +24,7 @@ force_tcp = true
 #SOCKS代理
 #配合上游代理socks5端口使用
 #没有socks5代理请关闭！！！
-proxy = 'socks5://127.0.0.1:1080'
+#proxy = 'socks5://127.0.0.1:1080'
 ## HTTP/HTTPS proxy
 # http_proxy = 'http://127.0.0.1:8888'
 #Keepalive用於HTTP（HTTPS，HTTP / 2）查詢，以秒為單位
@@ -28,16 +33,12 @@ keepalive = 30
 listen_addresses = ['127.0.0.1:5354']
 #listen_addresses = ['127.0.0.1:5354', '[::1]:5354']
 # user_name = 'nobody'
-max_clients = 300
-dnscrypt_servers = true
-doh_servers = true
-daemonize = false
-timeout = 5000
 cert_refresh_delay = 240
 tls_cipher_suite = [52392, 49199]
 #等待网络连接之前的最长时间（以秒为单位）
 netprobe_timeout = 60
 netprobe_address = '9.9.9.9:53'
+fallback_resolvers = ['9.9.9.9:53', '9.9.9.10:53']
 ignore_system_dns = true
 log_level = 0
 use_syslog = true
@@ -52,7 +53,16 @@ cache_max_ttl = 864000
 cache_neg_ttl = 60000
 cache_neg_max_ttl = 864000
 
-fallback_resolvers = ['9.9.9.9:53', '9.9.9.10:53']
+
+##################################################################################
+#        Route queries for specific domains to a dedicated set of servers        #
+##################################################################################
+forwarding_rules = 'dnscrypt-forwarding-rules.txt'
+
+###############################
+#        Cloaking rules       #
+###############################
+# cloaking_rules = 'dnscrypt-cloaking-rules.txt'
 
 ###############################
 #        Query logging        #
