@@ -3,7 +3,7 @@ echo '# Converted from https://github.com/felixonmars/dnsmasq-china-list/blob/ma
 echo '# https://github.com/felixonmars/dnsmasq-china-list' >>dnscrypt-forwarding-rules.txt
 echo '# Thanks to all contributors.' >>dnscrypt-forwarding-rules.txt
 echo '' >>dnscrypt-forwarding-rules.txt
-cat accelerated-domains.china.conf | grep -v '^#server' | sed -e 's|/| |g' -e 's|^server= ||' | sed 's/114.114.114.114/114.114.114.114,223.5.5.5,119.29.29.29/g' >>dnscrypt-forwarding-rules.txt
+cat accelerated-domains.china.conf | grep -v '^#server' | sed -e 's|/| |g' -e 's|^server= ||' | sed 's/114.114.114.114/114.114.114.114:53,223.5.5.5:53,119.29.29.29:53/g' >>dnscrypt-forwarding-rules.txt
 
 wget -N https://github.com/felixonmars/dnsmasq-china-list/raw/master/bogus-nxdomain.china.conf
 echo '# Converted from https://github.com/felixonmars/dnsmasq-china-list/blob/master/bogus-nxdomain.china.conf' >dnscrypt-blacklist-ips.txt
@@ -29,8 +29,10 @@ sed -i '/#/d;/localhost/d;s/127.0.0.1	//g' ad_servers.txt
 cat ad_servers.txt >> dnscrypt-blacklist-domains.txt
 rm -rf ad_servers.txt
 
+rm -rf dnscrypt-cloaking-rules.txt
+echo -e "#Quad9\ndns.quad9.net 9.9.9.10\ndns.quad9.net 149.112.112.10\ndns9.quad9.net 9.9.9.10\ndns9.quad9.net 149.112.112.10" > dnscrypt-cloaking-rules.txt
 #wget -N https://github.com/googlehosts/hosts/raw/master/hosts-files/dnscrypt-proxy-cloaking.txt
-#echo '# Converted from https://github.com/googlehosts/hosts/blob/master/hosts-files/dnscrypt-proxy-cloaking.txt' >dnscrypt-cloaking-rules.txt
+#echo '# Converted from https://github.com/googlehosts/hosts/blob/master/hosts-files/dnscrypt-proxy-cloaking.txt' >>dnscrypt-cloaking-rules.txt
 #echo '# https://github.com/googlehosts/hosts' >>dnscrypt-cloaking-rules.txt
 #echo '# Thanks to all contributors.' >>dnscrypt-cloaking-rules.txt
 #echo '' >>dnscrypt-cloaking-rules.txt

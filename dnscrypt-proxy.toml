@@ -26,12 +26,12 @@ force_tcp = true
 #没有socks5代理请关闭！！！
 #proxy = 'socks5://127.0.0.1:1080'
 ## HTTP/HTTPS proxy
-# http_proxy = 'http://127.0.0.1:8888'
+#http_proxy = 'http://127.0.0.1:8888'
 #Keepalive用於HTTP（HTTPS，HTTP / 2）查詢，以秒為單位
 keepalive = 30
 #server_names = ["quad9", "cloudflare"]
-listen_addresses = ['127.0.0.1:5354']
-#listen_addresses = ['127.0.0.1:5354', '[::1]:5354']
+#listen_addresses = ['127.0.0.1:5354']
+listen_addresses = ['127.0.0.1:5354', '[::1]:5354']
 # user_name = 'nobody'
 cert_refresh_delay = 240
 tls_cipher_suite = [52392, 49199]
@@ -47,11 +47,11 @@ log_files_max_age = 7
 log_files_max_backups = 1
 #缓存开关
 cache = true
-cache_size = 25600
-cache_min_ttl = 60000
-cache_max_ttl = 864000
-cache_neg_ttl = 60000
-cache_neg_max_ttl = 864000
+cache_size = 10240
+cache_min_ttl = 3600
+cache_max_ttl = 86400
+cache_neg_ttl = 3600
+cache_neg_max_ttl = 86400
 
 
 ##################################################################################
@@ -62,7 +62,8 @@ forwarding_rules = 'dnscrypt-forwarding-rules.txt'
 ###############################
 #        Cloaking rules       #
 ###############################
-# cloaking_rules = 'dnscrypt-cloaking-rules.txt'
+cloaking_rules = 'dnscrypt-cloaking-rules.txt'
+cloak_ttl = 3600
 
 ###############################
 #        Query logging        #
