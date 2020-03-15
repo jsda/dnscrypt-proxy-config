@@ -3,3 +3,8 @@ dns.quad9.net 9.9.9.10
 dns.quad9.net 149.112.112.10
 dns9.quad9.net 9.9.9.10
 dns9.quad9.net 149.112.112.10
+#Alidns
+dns.alidns.com 223.5.5.5
+dns.alidns.com 223.6.6.6
+dns.alidns.com 2400:3200::1
+dns.alidns.com 2400:3200:baba::1
