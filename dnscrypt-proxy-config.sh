@@ -30,7 +30,7 @@ cat ad_servers.txt >> dnscrypt-blacklist-domains.txt
 rm -rf ad_servers.txt
 
 rm -rf dnscrypt-cloaking-rules.txt
-echo -e "#Quad9\ndns.quad9.net 9.9.9.10\ndns.quad9.net 149.112.112.10\ndns9.quad9.net 9.9.9.10\ndns9.quad9.net 149.112.112.10" > dnscrypt-cloaking-rules.txt
+echo -e "#Quad9\ndns.quad9.net 9.9.9.10\ndns.quad9.net 149.112.112.10\ndns9.quad9.net 9.9.9.10\ndns9.quad9.net 149.112.112.10\n#Alidns\ndns.alidns.com 223.5.5.5\ndns.alidns.com 223.6.6.6\ndns.alidns.com 2400:3200::1\ndns.alidns.com 2400:3200:baba::1" > dnscrypt-cloaking-rules.txt
 #wget -N https://github.com/googlehosts/hosts/raw/master/hosts-files/dnscrypt-proxy-cloaking.txt
 #echo '# Converted from https://github.com/googlehosts/hosts/blob/master/hosts-files/dnscrypt-proxy-cloaking.txt' >>dnscrypt-cloaking-rules.txt
 #echo '# https://github.com/googlehosts/hosts' >>dnscrypt-cloaking-rules.txt
