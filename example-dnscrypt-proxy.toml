@@ -241,8 +241,10 @@ netprobe_address = '9.9.9.9:53'
 ## These strings will be added as TXT records to queries.
 ## Do not use, except on servers explicitly asking for extra data
 ## to be present.
+## encrypted-dns-server can be configured to use this for access control
+## in the [access_control] section
 
-# query_meta = ["key1:value1", "key2:value2", "key3:value3"]
+# query_meta = ["key1:value1", "key2:value2", "token:MySecretToken"]
 
 
 ## Automatic log files rotation
@@ -624,10 +626,10 @@ cache_neg_max_ttl = 600
 # truncate reponses larger than questions as expected by the DNSCrypt protocol.
 # This prevents large responses from being received, and breaks relaying.
 # A workaround for the first issue will be applied to servers in list below.
-# Quad9 (actually dnsdist) appears to currently have a similar issue.
+# Quad9 appears to currently have a similar issue.
 # Do not change that list until the bugs are fixed server-side.
 
-broken_query_padding = ['cisco', 'cisco-ipv6', 'cisco-familyshield', "quad9-dnscrypt-ip4-filter-alt", "quad9-dnscrypt-ip4-filter-pri", "quad9-dnscrypt-ip4-nofilter-alt", "quad9-dnscrypt-ip4-nofilter-pri", "quad9-dnscrypt-ip6-filter-alt", "quad9-dnscrypt-ip6-filter-pri", "quad9-dnscrypt-ip6-nofilter-alt", "quad9-dnscrypt-ip6-nofilter-pri"]
+broken_query_padding = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'quad9-dnscrypt-ip4-filter-alt', 'quad9-dnscrypt-ip4-filter-pri', 'quad9-dnscrypt-ip4-nofilter-alt', 'quad9-dnscrypt-ip4-nofilter-pri', 'quad9-dnscrypt-ip6-filter-alt', 'quad9-dnscrypt-ip6-filter-pri', 'quad9-dnscrypt-ip6-nofilter-alt', 'quad9-dnscrypt-ip6-nofilter-pri']
 
 
 
