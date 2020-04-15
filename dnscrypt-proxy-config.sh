@@ -13,21 +13,16 @@ echo '' >>dnscrypt-blacklist-ips.txt
 cat bogus-nxdomain.china.conf | grep -v '^#bogus' | grep bogus-nxdomain | sed 's/bogus-nxdomain=//g' >>dnscrypt-blacklist-ips.txt
 
 rm -rf dnscrypt-blacklist-domains.txt
-#wget -N https://github.com/missdeer/blocklist/raw/master/toblock-without-shorturl-optimized.lst
-#echo '# Converted from https://github.com/missdeer/blocklist/blob/master/toblock-without-shorturl-optimized.lst' >>dnscrypt-blacklist-domains.txt
-#echo '# https://github.com/missdeer/blocklist' >>dnscrypt-blacklist-domains.txt
-#echo '# Thanks to all contributors.' >>dnscrypt-blacklist-domains.txt
-#echo '' >>dnscrypt-blacklist-domains.txt
-#echo 'ad.*' >>dnscrypt-blacklist-domains.txt
-#echo 'ad[0-9]*' >>dnscrypt-blacklist-domains.txt
-#echo 'ads.*' >>dnscrypt-blacklist-domains.txt
-#echo 'ads[0-9]*' >>dnscrypt-blacklist-domains.txt
-#cat toblock-without-shorturl-optimized.lst | grep -v '^#' | tr -s '\n' | tr A-Z a-z | grep -v '^ad\.' | grep -v -e '^ad[0-9]' | grep -v '^ads\.' | grep -v -e '^ads[0-9]' | rev | sort -n | uniq | rev >>dnscrypt-blacklist-domains.txt
-
-wget -N https://hosts-file.net/ad_servers.txt
-sed -i '/#/d;/localhost/d;s/127.0.0.1	//g' ad_servers.txt
-cat ad_servers.txt >> dnscrypt-blacklist-domains.txt
-rm -rf ad_servers.txt
+wget -N https://github.com/missdeer/blocklist/raw/master/toblock-without-shorturl-optimized.lst
+echo '# Converted from https://github.com/missdeer/blocklist/blob/master/toblock-without-shorturl-optimized.lst' >>dnscrypt-blacklist-domains.txt
+echo '# https://github.com/missdeer/blocklist' >>dnscrypt-blacklist-domains.txt
+echo '# Thanks to all contributors.' >>dnscrypt-blacklist-domains.txt
+echo '' >>dnscrypt-blacklist-domains.txt
+echo 'ad.*' >>dnscrypt-blacklist-domains.txt
+echo 'ad[0-9]*' >>dnscrypt-blacklist-domains.txt
+echo 'ads.*' >>dnscrypt-blacklist-domains.txt
+echo 'ads[0-9]*' >>dnscrypt-blacklist-domains.txt
+cat toblock-without-shorturl-optimized.lst | grep -v '^#' | tr -s '\n' | tr A-Z a-z | grep -v '^ad\.' | grep -v -e '^ad[0-9]' | grep -v '^ads\.' | grep -v -e '^ads[0-9]' | rev | sort -n | uniq | rev >>dnscrypt-blacklist-domains.txt
 
 rm -rf dnscrypt-cloaking-rules.txt
 echo -e "#Quad9\ndns.quad9.net 9.9.9.10\ndns.quad9.net 149.112.112.10\ndns9.quad9.net 9.9.9.10\ndns9.quad9.net 149.112.112.10\n#Alidns\ndns.alidns.com 223.5.5.5\ndns.alidns.com 223.6.6.6\ndns.alidns.com 2400:3200::1\ndns.alidns.com 2400:3200:baba::1" > dnscrypt-cloaking-rules.txt
