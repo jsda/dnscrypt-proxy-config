@@ -18,14 +18,26 @@ echo '# Converted from https://github.com/missdeer/blocklist/blob/master/toblock
 echo '# https://github.com/missdeer/blocklist' >>dnscrypt-blacklist-domains.txt
 echo '# Thanks to all contributors.' >>dnscrypt-blacklist-domains.txt
 echo '' >>dnscrypt-blacklist-domains.txt
-echo 'ad.*' >>dnscrypt-blacklist-domains.txt
-echo 'ad[0-9]*' >>dnscrypt-blacklist-domains.txt
-echo 'ads.*' >>dnscrypt-blacklist-domains.txt
-echo 'ads[0-9]*' >>dnscrypt-blacklist-domains.txt
+#echo 'ad.*' >>dnscrypt-blacklist-domains.txt
+#echo 'ad[0-9]*' >>dnscrypt-blacklist-domains.txt
+#echo 'ads.*' >>dnscrypt-blacklist-domains.txt
+#echo 'ads[0-9]*' >>dnscrypt-blacklist-domains.txt
 cat toblock-without-shorturl-optimized.lst | grep -v '^#' | tr -s '\n' | tr A-Z a-z | grep -v '^ad\.' | grep -v -e '^ad[0-9]' | grep -v '^ads\.' | grep -v -e '^ads[0-9]' | rev | sort -n | uniq | rev >>dnscrypt-blacklist-domains.txt
 
 rm -rf dnscrypt-cloaking-rules.txt
-echo -e "#Quad9\ndns.quad9.net 9.9.9.10\ndns.quad9.net 149.112.112.10\ndns9.quad9.net 9.9.9.10\ndns9.quad9.net 149.112.112.10\n#Alidns\ndns.alidns.com 223.5.5.5\ndns.alidns.com 223.6.6.6\ndns.alidns.com 2400:3200::1\ndns.alidns.com 2400:3200:baba::1" > dnscrypt-cloaking-rules.txt
+cat >> dnscrypt-cloaking-rules.txt <<EOF
+#Quad9
+dns.quad9.net 9.9.9.10
+dns.quad9.net 149.112.112.10
+dns9.quad9.net 9.9.9.10
+dns9.quad9.net 149.112.112.10
+#Alidns
+dns.alidns.com 223.5.5.5
+dns.alidns.com 223.6.6.6
+dns.alidns.com 2400:3200::1
+dns.alidns.com 2400:3200:baba::1
+EOF
+
 #wget -N https://github.com/googlehosts/hosts/raw/master/hosts-files/dnscrypt-proxy-cloaking.txt
 #echo '# Converted from https://github.com/googlehosts/hosts/blob/master/hosts-files/dnscrypt-proxy-cloaking.txt' >>dnscrypt-cloaking-rules.txt
 #echo '# https://github.com/googlehosts/hosts' >>dnscrypt-cloaking-rules.txt
