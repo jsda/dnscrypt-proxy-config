@@ -36,6 +36,12 @@ dns.alidns.com 223.5.5.5
 dns.alidns.com 223.6.6.6
 dns.alidns.com 2400:3200::1
 dns.alidns.com 2400:3200:baba::1
+#Apple
+*.apple.cn *.apple.com
+#Google
+www.google.cn www.google.com
+*.g.cn www.google.com
+www.google.com.hk www.google.com
 EOF
 
 #wget -N https://github.com/googlehosts/hosts/raw/master/hosts-files/dnscrypt-proxy-cloaking.txt
