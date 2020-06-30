@@ -39,7 +39,8 @@ dns.alidns.com 2400:3200:baba::1
 #Apple
 *.apple.cn *.apple.com
 #Google
-www.google.cn www.google.com
+*.google.cn *.google.com
+*.googleapis.cn *.googleapis.com
 *.g.cn www.google.com
 www.google.com.hk www.google.com
 EOF
