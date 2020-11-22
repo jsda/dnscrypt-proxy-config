@@ -18,8 +18,8 @@ on:
 #      - 'x64.config'
   schedule:
     - cron: '0 17 * * *'
-#  watch:
-#    types: [started]
+  watch:
+    types: [started]
 
 jobs:
   merge:
